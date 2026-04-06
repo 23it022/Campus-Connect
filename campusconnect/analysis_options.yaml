@@ -1,0 +1,15 @@
+# Flutter analysis options for CampusConnect
+# Defines linting rules to maintain code quality
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Error rules
+    avoid_print: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_final_fields: true
+    unnecessary_const: true
+    unnecessary_new: true
+    use_key_in_widget_constructors: true

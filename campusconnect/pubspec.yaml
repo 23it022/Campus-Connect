@@ -1,0 +1,100 @@
+name: campusconnect
+description: A student-focused social media platform for academic and campus interaction.
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core - Required for all Firebase services
+  firebase_core: ^3.8.1
+  
+  # Firebase Authentication
+  firebase_auth: ^5.3.3
+  
+  # Cloud Firestore Database
+  cloud_firestore: ^5.5.3
+  
+  # Firebase Storage for images
+  firebase_storage: ^12.3.7
+  
+  # Firebase Cloud Messaging for notifications
+  firebase_messaging: ^15.1.5
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Image Picker for selecting images
+  image_picker: ^1.0.7
+  
+  # Cached Network Image for efficient image loading
+  cached_network_image: ^3.3.1
+  
+  # Date/Time formatting
+  intl: ^0.18.1
+  
+  # Human-readable time ago formatting
+  timeago: ^3.7.0
+  
+  # UUID for generating unique IDs
+  uuid: ^4.3.3
+  
+  # Shimmer effect for loading states
+  shimmer: ^3.0.0
+  
+  # Icon pack
+  cupertino_icons: ^1.0.6
+  
+  # Google Fonts for premium typography
+  google_fonts: ^6.1.0
+  
+  # File handling
+  file_picker: ^8.0.0+1
+  permission_handler: ^11.3.0
+  
+  # PDF viewing
+  syncfusion_flutter_pdfviewer: ^27.2.5
+  
+  # Excel parsing for bulk imports
+  excel: ^4.0.3
+  
+  # Charts & Graphs for attendance/results
+  fl_chart: ^0.69.0
+  
+  # Calendar for attendance view
+  table_calendar: ^3.0.9
+  
+  # HTTP client for REST API calls
+  http: ^1.2.0
+
+  # QR Code Scanner (uses MLKit / Apple Vision)
+  mobile_scanner: ^6.0.2
+
+  # QR Code Generator
+  qr_flutter: ^4.1.0
+
+  # Utilities
+  share_plus: ^10.1.2
+  url_launcher: ^6.3.1
+  badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting rules
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Asset configuration
+  assets:
+    - assets/images/

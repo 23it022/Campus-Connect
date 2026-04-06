@@ -1,0 +1,47 @@
+﻿Analyzing campusconnect...                                      
+
+   info - Dangling library doc comment - lib\core\base\base_repository.dart:1:1 - dangling_library_doc_comments
+   info - Don't invoke 'print' in production code - lib\core\base\base_repository.dart:20:5 - avoid_print
+   info - Dangling library doc comment - lib\core\errors\app_errors.dart:1:1 - dangling_library_doc_comments
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_errors.dart:16:3 - use_super_parameters
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_errors.dart:22:3 - use_super_parameters
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_errors.dart:28:3 - use_super_parameters
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_errors.dart:34:3 - use_super_parameters
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_errors.dart:40:3 - use_super_parameters
+   info - Parameter 'message' could be a super parameter - lib\core\errors\app_errors.dart:46:3 - use_super_parameters
+   info - Unnecessary escape in string literal - lib\core\network\storage_service.dart:76:20 - unnecessary_string_escapes
+  error - Target of URI doesn't exist: '../../../domain/models/user_model.dart' - lib\features\auth\data\services\auth_service.dart:3:8 - uri_does_not_exist
+  error - The name 'UserModel' isn't a type, so it can't be used as a type argument - lib\features\auth\data\services\auth_service.dart:19:10 - non_type_as_type_argument
+  error - The method 'UserModel' isn't defined for the type 'AuthService' - lib\features\auth\data\services\auth_service.dart:38:25 - undefined_method
+  error - The name 'UserModel' isn't a type, so it can't be used as a type argument - lib\features\auth\data\services\auth_service.dart:57:10 - non_type_as_type_argument
+  error - The name 'UserModel' isn't a type, so it can't be used as a type argument - lib\features\auth\data\services\auth_service.dart:101:10 - non_type_as_type_argument
+  error - Undefined name 'UserModel' - lib\features\auth\data\services\auth_service.dart:108:14 - undefined_identifier
+  error - Undefined class 'UserModel' - lib\features\auth\data\services\auth_service.dart:115:35 - undefined_class
+  error - Undefined class 'UserModel' - lib\features\auth\data\services\auth_service.dart:124:34 - undefined_class
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\auth\presentation\screens\signup_screen.dart:173:23 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\auth\presentation\screens\signup_screen.dart:205:23 - deprecated_member_use
+  error - This expression has a type of 'void' so its value can't be used - lib\features\feed\presentation\providers\feed_provider.dart:52:12 - use_of_void_result
+  error - This expression has a type of 'void' so its value can't be used - lib\features\feed\presentation\providers\feed_provider.dart:71:12 - use_of_void_result
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\shared\navigation\navigation_service.dart:12:10 - missing_const_final_var_or_type
+
+flutter : 23 issues 
+found. (ran in 0.8s)
+At line:1 char:1
++ flutter analyze 
+--no-fatal-infos 
+2>&1 | Out-File 
+-FilePath "analysis_ 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (23 issu   
+ es found. (ran i    
+n 0.8s):String)     
+[], RemoteExcept    
+ion
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
